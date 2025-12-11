@@ -1,4 +1,4 @@
-name: Update NOSTREAM Api
+name: Update ASTRAL Api
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
         description: 'Release Tags'
 
 jobs:
-  update_nostream:
+  update_astral:
     runs-on: ubuntu-latest
     steps:
       - name: Check out the repo
